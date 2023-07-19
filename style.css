@@ -13,6 +13,9 @@
     text-align: center;
    
 }
+.nav-ber-color{
+    color: #FF42A5;
+}
 .nav-ber{
     display: flex;
     justify-content: space-around;
@@ -62,12 +65,16 @@
     text-decoration: none;
     font-size: 14px;
 }
+
 /* banner section */
 .banner-section{
     background: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.banner-tex{
+    padding-right: 400px;
 }
 .frist-tex{
     color: #0B0223;
@@ -123,3 +130,104 @@
     padding-top: 5px;
     
 }
+/* gallery */
+.gallery-contener{
+    margin-top: 70px;
+   height: 420px;
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.gallery-h2{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+    background-clip: text;
+    
+    font-size: 28px;
+    font-weight: 700;
+}
+.tex-color{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.gallery-p{
+    color: #534C64;
+    font-size: 11px;
+    font-weight: 400;
+}
+/* IMG */
+.container{
+    margin: auto;
+    overflow: auto;
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    
+
+}
+.gallery{
+    width: 342px;
+    border-radius: 16px;
+    padding: 5px;
+   
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+   
+
+}
+.desc{
+    padding-top: 10px;
+    color: #534C64;
+    font-size: 11px;
+    font-weight: 400;
+
+}
+/* main-section */
+.main-banner-section{
+    height: 700px;
+    border: 3px solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section-tex{
+    width: 50%;
+    justify-content: center;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+.main-section-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.main-section-p{
+    color: #534C64;
+font-size: 15px;
+font-weight: 400;
+padding-top: 15px;
+}
+.img-1{
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
+    padding-top: 50%;
+    position: relative;
+
+}
+.img-2{
+    border-radius: 8px;
+    border: 3px solid #FFF;
+    position: absolute;
+    
+
+   
+}
+/* main-section-folt */
