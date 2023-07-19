@@ -65,7 +65,61 @@
 /* banner section */
 .banner-section{
     background: #FFF;
-    border: 2px solid red;
-    height: 550px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frist-tex{
+    color: #0B0223;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600px;
+   padding-left: 5px;
+}
+.dotet-tex{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.tex-p{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: lowercase;
+    padding-top: 5px;
+}
+.bnt-sign{
+    border-radius: 48px;
+    padding: 10px 20px;
+    gap: 10px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.bnt-go-rogue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 10px;
+}
+
+.banner-img{
+    width: 400px;
+    height: 400px;
+    padding-left: 300px;
+    padding-top: 5px;
+    
 }
